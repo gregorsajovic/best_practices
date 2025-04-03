@@ -16,7 +16,20 @@ This repository is created to present best practices in software development, to
 #### Useage 
 
 
-## Languages && Frameworks
+## Languages && Frameworks && Tools
 
 ### Solidity 
+
+### Github
+
+For safe and easyer development it is very important to use repository for your code. 
+That's why you need to have at least basic knowledge how to use repository. 
+
+On this [link](./Github/README.md) are some basic instructions of how to create repository on github.com and how to save your code there.
+
+### Javascript
+
+
+### Typescript
+
 
