@@ -4,13 +4,11 @@
 
 This is short tutorial for working with github
 
-
 Initialisation of the project's github:
 
 ```terminal
 git init
 ```
-
 creates .git/ folder
 
 Creating README.md ile:
@@ -111,7 +109,11 @@ git push --set-upstream origin main
 7. 
 
 
-## Working with github
+## Working with github - how to
+
+### Adding table of content
+
+H
 
 ### Short hints
 
