@@ -1,6 +1,6 @@
+# Github - how to helper document
 
-
-# Getting Started with Github
+## Getting Started with Github
 
 This is short tutorial for working with github
 
@@ -21,9 +21,9 @@ touch README.md
 
 add content to the file and then create remote repository on your github account:
 
-## Create new private repository
+### Create new private repository
 
-#### With git command from terminal:
+##### With git command from terminal:
 
 First set authentication with github token:
 1. create token on the github account like described [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
@@ -109,3 +109,15 @@ git push --set-upstream origin main
   ```
 
 7. 
+
+
+## Working with github
+
+### Short hints
+
+#### Undo last commit
+
+```terminal
+got reset --soft HEAD~
+``` 
+

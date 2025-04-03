@@ -18,7 +18,9 @@ This repository is created to present best practices in software development, to
 
 ## Languages && Frameworks && Tools
 
-### Solidity 
+### Smart contracts - Solidity 
+
+[Here](./Solidity/README.md) are some advices of how to write code for smart contracts in solidity
 
 ### Github
 
