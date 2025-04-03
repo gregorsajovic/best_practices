@@ -6,6 +6,19 @@ This repository is created to present best practices in software development, to
 
 ## Table of content
 
+- [Best practices](#best-practices)
+  - [Description of the project](#description-of-the-project)
+  - [Table of content](#table-of-content)
+  - [Getting started](#getting-started)
+    - [Requirements](#requirements)
+      - [Quickstart](#quickstart)
+      - [Useage](#useage)
+  - [Languages \&\& Frameworks \&\& Tools](#languages--frameworks--tools)
+    - [Smart contracts - Solidity](#smart-contracts---solidity)
+    - [Github](#github)
+    - [Javascript](#javascript)
+    - [Typescript](#typescript)
+
 
 ## Getting started
 
