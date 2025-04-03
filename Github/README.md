@@ -1,5 +1,18 @@
 # Github - how to helper document
 
+## Table of content
+
+- [Github - how to helper document](#github---how-to-helper-document)
+  - [Table of content](#table-of-content)
+  - [Getting Started with Github](#getting-started-with-github)
+    - [Create new private repository](#create-new-private-repository)
+        - [With git command from terminal:](#with-git-command-from-terminal)
+  - [Working with github - how to](#working-with-github---how-to)
+    - [Adding table of content](#adding-table-of-content)
+    - [Short hints](#short-hints)
+      - [Undo last commit](#undo-last-commit)
+
+
 ## Getting Started with Github
 
 This is short tutorial for working with github
@@ -113,7 +126,15 @@ git push --set-upstream origin main
 
 ### Adding table of content
 
-H
+The easiest way to create table of content in markdown file is to copy entire content of README.md file to this [online TOC generator](https://ecotrust-canada.github.io/markdown-toc/) and copy TOC from that result into your README.md file.
+
+Or you can create it manually by creating first entry of the title by entering in this manner:
+
+```markdown
+- [Github - how to helper document](#github---how-to-helper-document)
+```
+
+and after that saving the file, that will generate the rest of you table of content.
 
 ### Short hints
 
