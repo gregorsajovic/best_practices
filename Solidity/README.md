@@ -2,6 +2,8 @@
 
 When programming in solidity we should follow these guides:
 
+## Naming conventions
+
 
 ### Layout of Contract:
 - version
