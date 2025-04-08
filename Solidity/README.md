@@ -20,6 +20,7 @@ When programming in solidity we should follow these guides:
     - [🧩 4. Separation of Concerns in Solidity Contracts](#-4-separation-of-concerns-in-solidity-contracts)
       - [Benefits:](#benefits)
     - [🎨 5. Style Tips](#-5-style-tips)
+      - [General tips](#general-tips)
 
 
 ### Layout of Contract:
@@ -197,13 +198,7 @@ When structuring your smart contracts, aim for modularity and clarity by separat
 
 ### 🎨 5. Style Tips
 
-- Use NatSpec comments for all public functions & contracts.
-```solidity
-/// @notice Mints new tokens to a specified address.
-/// @param to The recipient address.
-/// @param amount Amount of tokens to mint.
-function mint(address to, uint256 amount) external onlyOwner;
-```
+#### General tips
 
 - Use custom errors instead of string reverts:
 
@@ -216,8 +211,8 @@ function doSomething() external {
 ```
 
 - Keep functions short & focused (≤ 20 lines ideally).
-
 - Avoid deeply nested if/else. Use require or early returns.
+- Use NatSpec format for comments so you can automatically generate documentation from comments, more details [here](NatSpec.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
