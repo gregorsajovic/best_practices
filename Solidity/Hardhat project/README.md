@@ -1,4 +1,24 @@
+# Hardhat framework
 
+Here are basic priciples, guidelines and best practices for working with Hardhat.
+
+## Table of content
+
+- [Hardhat framework](#hardhat-framework)
+  - [Table of content](#table-of-content)
+    - [Folder Structure](#folder-structure)
+    - [📛 Naming Conventions](#-naming-conventions)
+        - [🔸 Contracts](#-contracts)
+        - [🔸 Ignition Modules](#-ignition-modules)
+        - [🔸 Test Files](#-test-files)
+        - [🔸 Scripts](#-scripts)
+        - [🔧 Best Practices](#-best-practices)
+        - [🧱 Contracts](#-contracts-1)
+        - [📦 Ignition](#-ignition)
+        - [🧪 Testing](#-testing)
+        - [⚙️ Hardhat Config](#️-hardhat-config)
+    - [🧩 Example Ignition Deployment Module](#-example-ignition-deployment-module)
+      - [💡 Bonus Tips](#-bonus-tips)
 
 
 

@@ -16,6 +16,7 @@ It will be constantly envolving and growing, also some of this parts will be unf
       - [Quickstart](#quickstart)
       - [Useage](#useage)
   - [Languages \&\& Frameworks \&\& Tools](#languages--frameworks--tools)
+    - [Hardhat project](#hardhat-project)
     - [Solidity - Smart contracts](#solidity---smart-contracts)
     - [Github](#github)
     - [Javascript](#javascript)
@@ -40,6 +41,10 @@ In: Polica office
 
 
 ## Languages && Frameworks && Tools
+
+### Hardhat project
+
+[Here](./Hardhat%20project/README.md) is described how should hardhat project be structured, naming conventions in the project, some examples and tips.
 
 ### Solidity - Smart contracts 
 
