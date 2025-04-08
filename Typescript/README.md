@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 ## 📦 TypeScript / Node.js Project Structure & Best Practices
 
 TypeScript brings strong typing and better tooling to JavaScript projects. Here's how to structure and scale a clean backend using TypeScript with Node.js.

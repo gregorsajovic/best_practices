@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 # Solidity language best practices
 
 A clean, consistent structure and naming convention in your Solidity smart contracts can make a huge difference—especially as your codebase grows or becomes collaborative.
