@@ -154,6 +154,7 @@ npx hardhat docgen
 Then check the docs/ folder — you’ll see markdown files per contract, including descriptions from NatSpec.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 --- 
 
 #### 🧰 3. Using Foundry: forge doc (experimental)
