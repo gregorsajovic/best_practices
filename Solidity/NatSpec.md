@@ -151,12 +151,12 @@ module.exports = {
 npx hardhat docgen
 ```
 
-Then check the ==docs/== folder — you’ll see markdown files per contract, including descriptions from NatSpec.
+Then check the docs/ folder — you’ll see markdown files per contract, including descriptions from NatSpec.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 --- 
 
-#### 🧰 3. Using Foundry: ==forge== doc (experimental)
+#### 🧰 3. Using Foundry: forge doc (experimental)
 
 If you're using Foundry, documentation support is being added under the forge doc command (though it's still in early stages as of mid-2024).
 
@@ -182,4 +182,5 @@ You could even write a script in Node.js or Python to automate this!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
