@@ -107,8 +107,6 @@ The Solidity compiler (solc) can extract NatSpec documentation as JSON output. T
 
 🛠️ How to Use:
 ```bash
-Copy
-Edit
 solc --userdoc --devdoc --pretty-json MyContract.sol
 ```
 - --userdoc: extracts @notice and user-facing info
