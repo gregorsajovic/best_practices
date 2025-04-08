@@ -1,3 +1,6 @@
+<a id="readme-top"></a>
+<p align="left"><a href="../README.md">Back to main readme</a></p>
+
 # Github - how to helper document
 
 ## Table of content
@@ -122,6 +125,10 @@ git push --set-upstream origin main
 7. 
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
 ## Working with github - how to
 
 ### Adding table of content
@@ -144,3 +151,7 @@ and after that saving the file, that will generate the rest of you table of cont
 got reset --soft HEAD~
 ``` 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---

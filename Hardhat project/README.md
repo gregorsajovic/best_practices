@@ -1,3 +1,6 @@
+<a id="readme-top"></a>
+<p align="left"><a href="../README.md">Back to main readme</a></p>
+
 # Hardhat framework
 
 Here are basic priciples, guidelines and best practices for working with Hardhat.
@@ -21,6 +24,8 @@ Here are basic priciples, guidelines and best practices for working with Hardhat
       - [💡 Bonus Tips](#-bonus-tips)
 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Folder Structure
 
@@ -56,6 +61,10 @@ my-hardhat-project/
 └── README.md
 
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### 📛 Naming Conventions
 ##### 🔸 Contracts
@@ -149,6 +158,9 @@ module.exports = {
 
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### 🧩 Example Ignition Deployment Module
 
@@ -172,3 +184,9 @@ export default buildModule("TokenModule", (m) => {
 - Setup Git hooks for formatting and linting before commit.
 
 - Add a .gitignore to avoid pushing sensitive files.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
