@@ -1,3 +1,6 @@
+<p align="right">(<a href="#../README.md">Back to main readme</a>)</p>
+
+
 ## 📦 JavaScript / Node.js Project Structure & Best Practices
 
 Organizing your backend project with clarity and consistency makes development faster, debugging easier, and collaboration smoother.
@@ -14,6 +17,7 @@ Organizing your backend project with clarity and consistency makes development f
   - [🧪 4. Testing (Optional)](#-4-testing-optional)
   - [📚 5. Recommended Tools](#-5-recommended-tools)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -29,6 +33,8 @@ Organizing your backend project with clarity and consistency makes development f
 - Prefer async/await over `.then()`/`.catch()` for readability.
 - Keep files small and focused – one module/class per file.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 📛 2. Naming Conventions
@@ -42,6 +48,8 @@ Organizing your backend project with clarity and consistency makes development f
 | Functions         | `camelCase`     | `handleLogin()`          |
 
 > ✅ Keep file names descriptive and function names action-oriented.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -82,6 +90,8 @@ project-root/
 └── server.js                # Entry point
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 🧪 4. Testing (Optional)
@@ -98,6 +108,8 @@ tests/
 
 > 🔍 Consider using `jest`, `mocha`, or `vitest` for testing.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 📚 5. Recommended Tools
@@ -108,8 +120,13 @@ tests/
 - **Validation**: `joi`, `zod`, `express-validator`
 - **Logging**: `winston`, `pino`
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 Following these conventions helps maintain scalable and readable code throughout your Node.js projects. 🧠
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ---

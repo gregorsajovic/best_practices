@@ -19,13 +19,16 @@ It will be constantly envolving and growing, also some of this parts will be unf
     - [Hardhat project](#hardhat-project)
     - [Solidity - Smart contracts](#solidity---smart-contracts)
     - [Github](#github)
-    - [Javascript](#javascript)
-      - [Node.js](#nodejs)
+    - [Javascript/Node.js](#javascriptnodejs)
       - [React](#react)
     - [Typescript](#typescript)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Getting started
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### About
 
@@ -33,22 +36,35 @@ Created by: Gregor Sajovic
 At: 3.april.2025
 In: Polica office
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Requirements
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Quickstart
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Useage 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Languages && Frameworks && Tools
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Hardhat project
 
 [Here](./Hardhat%20project/README.md) is described how should hardhat project be structured, naming conventions in the project, some examples and tips.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Solidity - Smart contracts 
 
 [Here](./Solidity/README.md) are some advices of how to write code for smart contracts in solidity
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Github
 
@@ -57,12 +73,19 @@ That's why you need to have at least basic knowledge how to use repository.
 
 On this [link](./Github/README.md) are some basic instructions of how to create repository on github.com and how to save your code there.
 
-### Javascript
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Node.js
+### Javascript/Node.js
 
+[Here](./Javascript/Node.js/README.md) is link to Javascript/node.js best practices and all others.
 
 #### React
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Typescript
+
+[Here](./Typescript//README.md) is link to Typescript best practices.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 

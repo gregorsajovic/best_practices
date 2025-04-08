@@ -16,6 +16,7 @@ When programming in solidity we should follow these guides:
       - [Libraries](#libraries)
     - [🧩 4. Separation of Concerns in Solidity Contracts](#-4-separation-of-concerns-in-solidity-contracts)
       - [Benefits:](#benefits)
+    - [🎨 5. Style Tips](#-5-style-tips)
 
 
 ### Layout of Contract:
@@ -28,6 +29,10 @@ When programming in solidity we should follow these guides:
 - Events
 - Modifiers
 - Functions
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### Layout of Functions:
 - constructor
@@ -42,6 +47,10 @@ When programming in solidity we should follow these guides:
 
 
 And [here](./ExampleContract.sol) is the example of solidity contract how it should be structured.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### 🧾 1. Naming Conventions (Solidity)
 - Contracts
@@ -91,6 +100,9 @@ event TokenMinted(address indexed to, uint256 amount);
 event StakeWithdrawn(address indexed user, uint256 amount);
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### 📁 2. Folder & File Structure (in contracts/)
 
@@ -114,6 +126,9 @@ contracts/
 ```
 Separate by domain logic, not just type (e.g., don’t put all interfaces/, contracts/, lib/ into top level—nest when needed).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ### 🧠 3. Design Patterns (for Solidity Structure)
 - Ownable / Access Control
@@ -149,6 +164,9 @@ library MathLib {
     }
 }
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 🧩 4. Separation of Concerns in Solidity Contracts
@@ -168,9 +186,13 @@ When structuring your smart contracts, aim for modularity and clarity by separat
 - Reusable components
 - Cleaner contract upgrades
 - Reduced gas cost by reusing libraries
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
-🎨 5. Style Tips
+### 🎨 5. Style Tips
 
 - Use NatSpec comments for all public functions & contracts.
 ```solidity
@@ -194,3 +216,6 @@ function doSomething() external {
 
 - Avoid deeply nested if/else. Use require or early returns.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---

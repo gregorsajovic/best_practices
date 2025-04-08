@@ -13,6 +13,7 @@ TypeScript brings strong typing and better tooling to JavaScript projects. Here'
   - [📁 3. Folder Structure](#-3-folder-structure)
   - [🧪 4. Testing (Optional)](#-4-testing-optional)
   - [📚 5. Recommended Tools](#-5-recommended-tools)
+- [(back to top)](#back-to-top)
   - [⚙️ 6. tsconfig.json Tips](#️-6-tsconfigjson-tips)
 
 ---
@@ -28,6 +29,8 @@ TypeScript brings strong typing and better tooling to JavaScript projects. Here'
 - Use async/await and centralized error handling.
 - Always compile with `tsc` before deploying – don’t run `.ts` files directly in production.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 📛 2. Naming Conventions
@@ -41,6 +44,8 @@ TypeScript brings strong typing and better tooling to JavaScript projects. Here'
 | Enums             | `PascalCase`    | `UserRole`                  |
 | Constants         | `UPPER_SNAKE`   | `DEFAULT_TIMEOUT`           |
 | Functions         | `camelCase`     | `getUserById()`             |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -87,6 +92,9 @@ project-root/
 ├── README.md
 └── server.ts                # Entry point
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### 🧪 4. Testing (Optional)
@@ -99,6 +107,8 @@ tests/
 ```
 ✅ Use ts-jest or vitest for type-aware testing.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 --- 
 
 ### 📚 5. Recommended Tools
@@ -109,6 +119,9 @@ tests/
   - Logging: winston, pino
   - Environment: dotenv
   - Dev Utils: ts-node, nodemon, tsx
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+--- 
 
 ### ⚙️ 6. tsconfig.json Tips
 Make sure you have a solid tsconfig.json for a production-ready setup:
@@ -136,8 +149,12 @@ Make sure you have a solid tsconfig.json for a production-ready setup:
 ```
 💡 Use baseUrl + paths to clean up imports like ../../../.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 Following this structure will help you scale, maintain, and onboard new devs quickly in any TypeScript Node.js backend project. 🚀
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
