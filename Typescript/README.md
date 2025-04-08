@@ -1,4 +1,5 @@
 <a id="readme-top"></a>
+<p align="left"><a href="../README.md">Back to main readme</a></p>
 
 ## 📦 TypeScript / Node.js Project Structure & Best Practices
 

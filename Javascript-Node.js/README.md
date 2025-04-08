@@ -1,7 +1,5 @@
 <a id="readme-top"></a>
-<p align="right">(<a href="../README.md">Back to main readme</a>)</p>
-
-[link](../README.md)
+<p align="left"><a href="../README.md">Back to main readme</a></p>
 
 ## 📦 JavaScript / Node.js Project Structure & Best Practices
 
