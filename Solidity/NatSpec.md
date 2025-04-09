@@ -1,6 +1,6 @@
 
 <a id="readme-top"></a>
-<p align="left"><a href="./README.md">Back to main readme</a></p>
+<p align="left"><a href="./README.md">Back to Solidity readme</a></p>
 
 ## NatSpec comments
 

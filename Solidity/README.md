@@ -13,13 +13,16 @@ When programming in solidity we should follow these guides:
     - [Layout of Contract:](#layout-of-contract)
     - [Layout of Functions:](#layout-of-functions)
     - [🧾 1. Naming Conventions (Solidity)](#-1-naming-conventions-solidity)
-    - [📁 2. Folder \& File Structure (in contracts/)](#-2-folder--file-structure-in-contracts)
+    - [📁 2. Folder \& File Structure](#-2-folder--file-structure)
     - [🧠 3. Design Patterns (for Solidity Structure)](#-3-design-patterns-for-solidity-structure)
       - [Modular Logic (for composability)](#modular-logic-for-composability)
       - [Libraries](#libraries)
     - [🧩 4. Separation of Concerns in Solidity Contracts](#-4-separation-of-concerns-in-solidity-contracts)
       - [Benefits:](#benefits)
-    - [🎨 5. Style Tips](#-5-style-tips)
+    - [✅ 5. Test Naming Conventions and folder structure](#-5-test-naming-conventions-and-folder-structure)
+      - [✅ Test File Naming Conventions](#-test-file-naming-conventions)
+      - [✅ Test Folder structure](#-test-folder-structure)
+    - [🎨 6. Style Tips](#-6-style-tips)
       - [General tips](#general-tips)
 
 
@@ -108,7 +111,32 @@ event StakeWithdrawn(address indexed user, uint256 amount);
 
 ---
 
-### 📁 2. Folder & File Structure (in contracts/)
+### 📁 2. Folder & File Structure
+
+Basic folder structure:
+
+
+```bash
+my-hardhat-project/
+│
+├── contracts/           # ✅ Your Solidity contracts
+│   └── MyToken.sol
+│
+├── test/                # ✅ Your JavaScript or TypeScript tests
+│   └── MyToken.test.js  # Test filename should match contract
+│
+├── scripts/             # ✅ Scripts for deployment or other tasks
+│   └── deploy.js
+│
+├── deployments/         # (Optional) Used with Hardhat Deploy plugin
+│
+├── hardhat.config.js    # Hardhat config file
+├── package.json         # NPM dependencies
+└── README.md
+
+```
+
+and here is detailed "contract" folder structure:
 
 ```bash
 contracts/
@@ -128,6 +156,18 @@ contracts/
 │   ├── TokenVault.sol
 │   └── ITokenVault.sol
 ```
+
+Folder structure for testing:
+
+```bash
+test/
+├── tokens/
+│   └── ERC20Token.test.js
+├── governance/
+│   └── Voting.test.js
+```
+
+
 Separate by domain logic, not just type (e.g., don’t put all interfaces/, contracts/, lib/ into top level—nest when needed).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,7 +236,59 @@ When structuring your smart contracts, aim for modularity and clarity by separat
 
 ---
 
-### 🎨 5. Style Tips
+### ✅ 5. Test Naming Conventions and folder structure
+
+#### ✅ Test File Naming Conventions
+
+| Purpose |	Convention | Example |
+|---------|------------|---------|
+|Test file name |	Match contract name (PascalCase) + .test.js or .test.ts |	MyToken.test.js |
+|Grouped contracts (optional)	| Use folders to organize them |	test/tokens/ERC20Token.test.js |
+
+
+📌 Why? Keeping test filenames aligned with contract names makes it easier to find and manage tests as your project grows.
+
+- Match the contract name in the test file for clarity.
+
+```bash
+test/
+└── Token.test.js      # Testing Token.sol
+└── VotingSystem.test.js
+```
+- Group related tests using describe() blocks:
+
+```js
+describe("Token", function () {
+    it("Should deploy correctly", async function () {
+        // test logic here
+    });
+});
+```
+
+#### ✅ Test Folder structure
+
+Bonus Tip: Subfolders for larger projects
+If your project grows, you can break things down like this:
+
+```bash
+contracts/
+├── tokens/
+│   └── ERC20Token.sol
+├── governance/
+│   └── Voting.sol
+```
+And tests:
+
+```bash
+test/
+├── tokens/
+│   └── ERC20Token.test.js
+├── governance/
+│   └── Voting.test.js
+```
+
+
+### 🎨 6. Style Tips
 
 #### General tips
 
