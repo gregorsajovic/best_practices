@@ -34,16 +34,16 @@ contract MyToken {
 
 ### 🏷️ Common NatSpec Tags
 
-| Tag           | Used In             | Description                                           |
-|---------------|---------------------|-------------------------------------------------------|
-| `@title`      | Contract/interface  | A brief title for the contract or interface           |
-| `@autho`r     | Contract/interface  | Author of the code                                    |
-| `@notice`     | Contract/function   | A comment meant for end users                         |
-| `@dev`        | Contract/function   | Developer-focused comment                             |
-| `@param`      | Function            | Description of a function parameter                   |
-| `@return`     | Function            | Description of a return variable                      |
-| `@inheritdoc` | Contract/function   | Inherit NatSpec comments from parent                  |
-| `@custom:`    | Contract/function   | Create your own tags (e.g. `@custom:security`)        |
+| Tag           | Used In             | Description                                           | Context                     |
+|---------------|---------------------|-------------------------------------------------------|-----------------------------|
+| `@title`      | Contract/interface  | A brief title for the contract or interface           |contract, library, interface, struct, enum, enum values|
+| `@author`     | Contract/interface  | Author of the code                                    |contract, library, interface, struct, enum, enum values|
+| `@notice`     | Contract/function   | A comment meant for end users                         |contract, library, interface, function, public state variable, event, struct, enum, enum values error|
+| `@dev`        | Contract/function   | Developer-focused comment                             |contract, library, interface, function, state variable, event, struct, enum, enum values, error|
+| `@param`      | Function            | Documents a parameter just like in Doxygen (must be followed by parameter name) |function, event, enum values, error|
+| `@return`     | Function            | Description of a return variable                      |function, enum, enum values, public state variable|
+| `@inheritdoc` | Contract/function   | Copies all missing tags from the base function (must be followed by the contract name)|function, enum, enum values, public state variable|
+| `@custom:`    | Contract/function   | Create your own tags (e.g. `@custom:security`)        |everywhere|
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
