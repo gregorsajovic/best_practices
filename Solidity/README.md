@@ -238,6 +238,14 @@ When structuring your smart contracts, aim for modularity and clarity by separat
 
 ### ✅ 5. Test Naming Conventions and folder structure
 
+
+Test types:  
+- Unit testing – basic tests
+- Integration testing – testing deploy scripts and how contracts interact with each other
+- Forked test – pseudo testing
+- Staging tests <- run tests on a mainnet or testnet – testing deployment on mock enviroment or live enviroment (predeploy) 
+
+
 #### ✅ Test File Naming Conventions
 
 | Purpose |	Convention | Example |
